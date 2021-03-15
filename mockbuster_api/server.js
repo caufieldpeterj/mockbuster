@@ -2,6 +2,9 @@
 const express = require('express');
 const mongoose = require('mongoose')
 
+//controller logic
+const movieController = require('./controllers/movies')
+
 const APP = express();
 const PORT = 3003;
 const DBNAME = 'mockbuster'
@@ -12,9 +15,9 @@ mongoose.connection.once('open', ()=>{
     console.log('connected to mongoose')
 })
 
-APP.get('/', (req, res)=> {
-    res.send('Hey there')
-})
+// MIDDLEWARE   
+APP.use('/movies', movieController) //access movies.js controller...removed initial GET route w/i server.js.
+
 
 APP.listen(PORT,()=> {
     console.log('listening on ' + PORT)
