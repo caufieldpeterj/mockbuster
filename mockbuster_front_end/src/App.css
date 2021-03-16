@@ -1,3 +1,7 @@
+body{
+  background-image: url("./img/circle-blues.png");
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +39,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.movieForm {
+background-color:wheat;
+}
+
+.movieList {
+  background-color:wheat;
+
+
+}
+
+.movieInfo{
+  background-color:wheat;
+
+
+}
+nav {
+  background-color: rgba(230, 180, 88, 0.75);
+
 }

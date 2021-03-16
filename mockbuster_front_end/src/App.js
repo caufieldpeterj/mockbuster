@@ -1,6 +1,9 @@
-import { render } from '@testing-library/react'
 import React, { Component } from 'react'
-// import './App.css';
+import Nav from './components/Nav'
+import Form from './components/Form'
+import Movielist from './components/Movielist'
+import Movieinfo from './components/Movieinfo'
+import './App.css';
 
 
 class App extends Component {
@@ -16,7 +19,25 @@ class App extends Component {
     return (
       <div>
 
-        <h1>This is MockBuster</h1>
+        {/* NAV BAR */}
+        <Nav />
+
+        <section className="section">
+          <div className="container">
+            <div className="columns is-centered">
+
+              {/* FORM COLUMN */}
+              <Form />
+
+              {/* WATCHLIST COLUMN */}
+              <Movielist />
+
+              {/* MOVIE INFORMATION */}
+              <Movieinfo />
+          
+            </div>
+          </div>
+        </section>
       </div>
     )
   }
