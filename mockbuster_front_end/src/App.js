@@ -1,8 +1,16 @@
 import React, { Component } from 'react'
+import { Link, Route, Switch } from 'react-router-dom';
+
 import Nav from './components/Nav'
 import Form from './components/Form'
 import Movielist from './components/Movielist'
 import Movieinfo from './components/Movieinfo'
+
+
+import Home from './components/Home'
+
+
+
 import './App.css';
 
 
@@ -22,24 +30,15 @@ class App extends Component {
         {/* NAV BAR */}
         <Nav />
 
-        <section className="section">
-          <div className="container">
-            <div className="columns is-centered">
 
-              {/* FORM COLUMN */}
-              <Form />
+        <Switch>
+          <Route path="/" exact component={Home} />
+        </Switch>
 
-              {/* WATCHLIST COLUMN */}
-              <Movielist />
 
-              {/* MOVIE INFORMATION */}
-              <Movieinfo />
-          
-            </div>
-          </div>
-        </section>
+
       </div>
-    )
+    );
   }
 }
 

@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import { Link, Route, Switch } from 'react-router-dom';
+
 
 class Nav extends Component {
   render() {
@@ -13,6 +15,8 @@ class Nav extends Component {
         <div classname="navbar-end">
           <div classname="navbar-item">
             <div classname="buttons">
+
+            <li><Link to="/">Home</Link></li>
               {/* <a classname="button is-primary">
             <strong>Sign up</strong>
           </a>
