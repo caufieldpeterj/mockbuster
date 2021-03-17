@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link, Route, Switch } from 'react-router-dom';
+// import { Link, Route, Switch } from 'react-router-dom';
 import Form from './Form'
 import Movielist from './Movielist'
 import Movieinfo from './Movieinfo'
@@ -10,7 +10,7 @@ export default class Home extends Component {
     super();
     //Set default message
     this.state = {
-      message: 'Whee!!!...'
+      movies: [], 
     }
   }
   // componentDidMount() {
@@ -30,7 +30,7 @@ export default class Home extends Component {
             <Form />
 
             {/* WATCHLIST COLUMN */}
-            <Movielist />
+            <Movielist movies={this.props.state.movies} />
 
             {/* MOVIE INFORMATION */}
             <Movieinfo />

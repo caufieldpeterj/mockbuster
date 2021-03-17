@@ -1,14 +1,9 @@
 import React, { Component } from 'react'
 import { Link, Route, Switch } from 'react-router-dom';
-import { Button, Navbar, Column, Container, Image } from 'react-bulma-components'
-
-
+import { Button, Navbar} from 'react-bulma-components'
 
 // import 'bulma/css/bulma.css'
 // import '../App.sass';
-
-
-
 
 class Nav extends Component {
   render() {

@@ -4,6 +4,7 @@ const MOCKBUSTER = express.Router()
 const Movies = require('../models/movie.js')
 
 
+
 //CREATE
 // curl -X POST -H "Content-Type: application/json" -d '{"title":"GA Week 9"}' 'http://localhost:3003/mockbuster'
 MOCKBUSTER.post('/', async (req, res) => {
@@ -39,7 +40,12 @@ MOCKBUSTER.put('/:watchlist', (req, res) => {
 //DELETE
 // curl -X DELETE 'http://localhost:3003/mockbuster' 
 MOCKBUSTER.delete('/:watchlist', (req, res) => {
-  Movies.findByIdAndRemove()
+  Movies.findByIdAndRemove(req.params.id, (err, deletedMovie) => {
+    if (err) {
+      res.status(400).json({ error: err.message })
+    }
+    res.status(200).json(deletedMovie)
+  })
 })
 
 module.exports = MOCKBUSTER
