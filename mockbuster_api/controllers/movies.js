@@ -38,7 +38,7 @@ MOCKBUSTER.put('/:watchlist', (req, res) => {
   })
 })
 //DELETE
-// curl -X DELETE 'http://localhost:3003/mockbuster' 
+// curl -i -X DELETE 'http://localhost:3003/mockbuster' 
 MOCKBUSTER.delete('/:watchlist', (req, res) => {
   Movies.findByIdAndRemove(req.params.id, (err, deletedMovie) => {
     if (err) {
