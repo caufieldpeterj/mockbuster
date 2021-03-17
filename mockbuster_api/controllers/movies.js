@@ -29,7 +29,7 @@ MOCKBUSTER.get('/', (req, res) => {
 })
 //UPDATE 
 // curl -X PUT -H "Content-Type: application/json" -d '{"title":" GA update week 9"}' 'http://localhost:3003/mockbuster'
-MOCKBUSTER.put('/:watchlist', (req, res) => {
+MOCKBUSTER.put('/:id', (req, res) => {
   Movies.findByIdAndUpdate(req.params.id, req.body, { new: true }, (err, updatedMovie) => {
     if (err) {
       res.status(400).json({ error: err.message })
@@ -38,14 +38,15 @@ MOCKBUSTER.put('/:watchlist', (req, res) => {
   })
 })
 //DELETE
-// curl -X DELETE 'http://localhost:3003/mockbuster' 
-MOCKBUSTER.delete('/:watchlist', (req, res) => {
+// curl -X DELETE 'http://localhost:3003/mockbuster/60521c8cb16acf56ca3ac470' 
+MOCKBUSTER.delete('/:id', (req, res) => {  
   Movies.findByIdAndRemove(req.params.id, (err, deletedMovie) => {
     if (err) {
       res.status(400).json({ error: err.message })
     }
     res.status(200).json(deletedMovie)
   })
+
 })
 
 module.exports = MOCKBUSTER
