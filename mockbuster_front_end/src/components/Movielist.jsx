@@ -2,13 +2,6 @@ import React, { Component } from 'react'
 import Movieinfo from './Movieinfo'
 
 
-
-// handleViewMovie = movie = {
-//   this.setState({
-//     movie
-//   }); 
-// }
-
 class Movielist extends Component {
   constructor(props){
     super(props);
@@ -16,19 +9,10 @@ class Movielist extends Component {
          movie: null
     }
 }
-
-state={movie:[]} 
-
-
-
-
-
   render() {
     return (
       <div className="movieList column is-3 m-2">
         <h1 className="is-size-4 has-text-link has-background-warning has-text-centered m-3 is-uppercase has-text-weight-bold	">My Watch List</h1>
-
-        {/* <Movieinfo movie={this.state.movie} /> */}
 
         {
           this.props.movies.map(movie => {

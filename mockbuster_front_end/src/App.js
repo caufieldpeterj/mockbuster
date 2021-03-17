@@ -1,20 +1,21 @@
 import React, { Component } from 'react'
 import { Link, Route, Switch } from 'react-router-dom';
 
+// == COMPONENTS == //
 import Nav from './components/Nav'
 import Form from './components/Form'
-// import Movielist from './components/Movielist'
-// import Movieinfo from './components/Movieinfo'
-
 import Home from './components/Home'
 import Login from './components/Login'
 import Signup from './components/Signup'
+// import Movielist from './components/Movielist'
+// import Movieinfo from './components/Movieinfo'
 
+// == CSS == //
 import './App.css';
-// import './App.sass';
 import 'bulma/css/bulma.css'
+// import './App.sass';
 
-
+// == CONNECTION TO DB == //
 let baseURL = ''; 
 
 if (process.env.NODE_ENV === 'development') {
@@ -22,7 +23,6 @@ if (process.env.NODE_ENV === 'development') {
 } else {
   baseURL = 'your heroku backend url here'
 }
-
 console.log('current base URL ' + baseURL); 
 
 class App extends Component {
@@ -38,6 +38,7 @@ class App extends Component {
     this.getMovies()
   }
 
+  // == FETCH MOVIES FROM MOCKBUSTER DB == //
   getMovies() {
     fetch(baseURL + '/mockbuster')
     .then(data => {
@@ -47,6 +48,7 @@ class App extends Component {
       this.setState({movies: parsedData}),
     err => console.log(err))
   }
+
   
   render() {
     return (
@@ -56,28 +58,19 @@ class App extends Component {
         {/* NAV BAR */}
           <Nav/>
      
-
         {/* REACT ROUTES */}
         <Switch>
 
           {/* //Pass Current State as Props to the Home Component */}
-          <Route path="/" render={props => 
-            (<Home state={this.state}/>)
-          }/>
-
-
+          {/* HOME.JSX is the parent of the ADD A MOVIE/WATCHLIST/INFORMATION Containers */}
+          <Route path="/" render={props => (<Home state={this.state}/>)}/>
           <Route path="/login" exact component={Login} />
           <Route path="/signup" exact component={Signup} />
         </Switch>
-
-
 
       </div>
     );
   }
 }
-
-
-
 
 export default App;

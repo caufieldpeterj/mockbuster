@@ -4,32 +4,43 @@ import Form from './Form'
 import Movielist from './Movielist'
 import Movieinfo from './Movieinfo'
 
-
 export default class Home extends Component {
   constructor() {
     super();
     //Set default message
     this.state = {
-      movies: [], 
+      movies: [],
+      title: '',
+      director: '',
+      year: 0,
+      platform: '',
+      description: '',
+      image: ''
     }
+    this.handleAddMovie = this.handleAddMovie.bind(this)
   }
-  // componentDidMount() {
-  //   //GET message from server using fetch api
-  //   fetch('/api/home')
-  //     .then(res => res.text())
-  //     .then(res => this.setState({message: res}));
-  // }
 
-  handleViewMovie (movie) {
+  // A Method to handle the adding the movie 
+  handleAddMovie(movie) {
+    const copyMovies = [...this.state.movies]
+    copyMovies.unshift(movie)
+    this.setState({
+      movies: copyMovies,
+      title: '',
+      director: '',
+      year: 0,
+      platform: '',
+      description: '',
+      image: ''
+    })
+  }
 
-    console.log("does this work");
+// To set state to where the movie clicked on is shown in the parent's state
+  handleViewMovie(movie) {
     console.log(movie);
-  
     this.setState({
       movie
-  });
-  
-    
+    });
   }
 
   render() {
@@ -39,8 +50,10 @@ export default class Home extends Component {
         <div className="container">
           <div className="columns is-centered">
 
+            {/* Three Page Containers are Organized */}
+
             {/* FORM COLUMN */}
-            <Form />
+            <Form handleAddMovie={this.handleAddMovie.bind(this)} />
 
             {/* WATCHLIST COLUMN */}
             <Movielist movies={this.props.state.movies} handleViewMovie={this.handleViewMovie.bind(this)} />
