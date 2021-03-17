@@ -54,7 +54,6 @@ class App extends Component {
     return (
        
       <div>
-
         {/* NAV BAR */}
           <Nav/>
      
