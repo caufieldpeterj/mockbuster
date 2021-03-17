@@ -27,7 +27,15 @@ MOCKBUSTER.get('/', (req, res) => {
     })
 })
 //UPDATE 
+<<<<<<< HEAD
+<<<<<<< HEAD
 // curl -X PUT -H "Content-Type: application/json" -d '{"title":" Test Update "}' 'http://localhost:3003/mockbuster/605224fba498748a3de7471d'
+=======
+// curl -X PUT -H "Content-Type: application/json" -d '{"title":" GA update week 9"}' 'http://localhost:3003/mockbuster'
+>>>>>>> ec5a871b681f4bd747d7275c5b5d5d412e86e4d1
+=======
+// curl -X PUT -H "Content-Type: application/json" -d '{"title":" Test Update "}' 'http://localhost:3003/mockbuster/605224fba498748a3de7471d'
+>>>>>>> 1a0f0e8f883f5591773b480d132b9b9fbbaeb7a5
 MOCKBUSTER.put('/:id', (req, res) => {
   Movies.findByIdAndUpdate(req.params.id, req.body, { new: true }, (err, updatedMovie) => {
     console.log(req.params.id)
@@ -39,8 +47,18 @@ MOCKBUSTER.put('/:id', (req, res) => {
   console.log(req.params.id)
 })
 //DELETE
+<<<<<<< HEAD
+<<<<<<< HEAD
 // curl -X DELETE 'http://localhost:3003/mockbuster/60522dd941073d8d6541425b' 
 MOCKBUSTER.delete('/:id', (req, res) => {
+=======
+// curl -X DELETE 'http://localhost:3003/mockbuster/60521c8cb16acf56ca3ac470' 
+MOCKBUSTER.delete('/:id', (req, res) => {  
+>>>>>>> ec5a871b681f4bd747d7275c5b5d5d412e86e4d1
+=======
+// curl -X DELETE 'http://localhost:3003/mockbuster/60522dd941073d8d6541425b' 
+MOCKBUSTER.delete('/:id', (req, res) => {
+>>>>>>> 1a0f0e8f883f5591773b480d132b9b9fbbaeb7a5
   Movies.findByIdAndRemove(req.params.id, (err, deletedMovie) => {
     if (err) {
       res.status(400).json({ error: err.message })
