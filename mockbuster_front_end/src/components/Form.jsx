@@ -105,9 +105,9 @@ class Form extends Component {
             <div className="field">
               <p className="control has-icons-left has-icons-right">
                 <div className="control">
-                  <input class="input" type="text" placeholder="Title" onChange={this.handleChange} id="title" name="title" value={this.state.title} />
-                  <span class="icon is-small is-left">
-                    <i class="fas fa-book-reader" />
+                  <input className="input" type="text" placeholder="Title" onChange={this.handleChange} id="title" name="title" value={this.state.title} />
+                  <span className="icon is-small is-left">
+                    <i className="fas fa-book-reader" />
                   </span>
                 </div>
               </p>
@@ -119,9 +119,9 @@ class Form extends Component {
             <div className="field">
               <p className="control has-icons-left has-icons-right">
                 <div className="control">
-                  <input class="input" type="text" placeholder="Director" onChange={this.handleChange} id="director" name="director" value={this.state.director} />
-                  <span class="icon is-small is-left">
-                    <i class="fas fa-book-reader" />
+                  <input className="input" type="text" placeholder="Director" onChange={this.handleChange} id="director" name="director" value={this.state.director} />
+                  <span className="icon is-small is-left">
+                    <i className="fas fa-book-reader" />
                   </span>
                 </div>
               </p>
@@ -133,9 +133,9 @@ class Form extends Component {
                   <div className="field">
                     <p className="control has-icons-left has-icons-right">
                       <div className="control">
-                        <input class="input" type="text" placeholder="Year" onChange={this.handleChange} id="year" name="year" value={this.state.year} />
-                        <span class="icon is-small is-left">
-                          <i class="fas fa-book-reader" />
+                        <input className="input" type="text" placeholder="Year" onChange={this.handleChange} id="year" name="year" value={this.state.year} />
+                        <span className="icon is-small is-left">
+                          <i className="fas fa-book-reader" />
                         </span>
                       </div>
                     </p>
@@ -148,9 +148,9 @@ class Form extends Component {
                   <div className="field">
                     <p className="control has-icons-left has-icons-right">
                       <div className="control">
-                        <input class="input" type="text" placeholder="description" onChange={this.handleChange} id="description" name="description" value={this.state.description} />
-                        <span class="icon is-small is-left">
-                          <i class="fas fa-book-reader" />
+                        <input className="input" type="text" placeholder="description" onChange={this.handleChange} id="description" name="description" value={this.state.description} />
+                        <span className="icon is-small is-left">
+                          <i className="fas fa-book-reader" />
                         </span>
                       </div>
                     </p>
@@ -162,9 +162,9 @@ class Form extends Component {
                   <div className="field">
                     <p className="control has-icons-left has-icons-right">
                       <div className="control">
-                        <input class="input" type="text" placeholder="image" onChange={this.handleChange} id="image"  name="image" value={this.state.image} />
-                        <span class="icon is-small is-left">
-                          <i class="fas fa-book-reader" />
+                        <input className="input" type="text" placeholder="image" onChange={this.handleChange} id="image"  name="image" value={this.state.image} />
+                        <span className="icon is-small is-left">
+                          <i className="fas fa-book-reader" />
                         </span>
                       </div>
                     </p>
@@ -177,9 +177,9 @@ class Form extends Component {
                   <div className="field">
                     <p className="control has-icons-left has-icons-right">
                       <div className="control">
-                        <input class="input" type="text" placeholder="platform" onChange={this.handleChange} id="platform"  name="platform" value={this.state.platform} />
-                        <span class="icon is-small is-left">
-                          <i class="fas fa-book-reader" />
+                        <input className="input" type="text" placeholder="platform" onChange={this.handleChange} id="platform"  name="platform" value={this.state.platform} />
+                        <span className="icon is-small is-left">
+                          <i className="fas fa-book-reader" />
                         </span>
                       </div>
                     </p>
@@ -188,9 +188,11 @@ class Form extends Component {
         
             {/* SUBMIT */}
             <div className="column">
-              <button class="button is-link is-rounded mt-1" type="submit">Add Movie</button>
+              <button className="button is-link is-rounded mt-1" type="submit">Add Movie</button>
             </div>        
       </form>
+
+      
       </div>
     )
   }
