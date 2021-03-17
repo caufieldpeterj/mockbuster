@@ -19,7 +19,6 @@ MOCKBUSTER.post('/', async (req, res) => {
 //INDEX
 // curl 'http://localhost:3003/mockbuster'
 MOCKBUSTER.get('/', (req, res) => {
-  //*add a mongoDB method to display titles in ascend/descend order*
     Movies.find({}, (err, listedMovie) => {
       if (err) {
         res.status(400).json({ error: err.message })
@@ -28,18 +27,20 @@ MOCKBUSTER.get('/', (req, res) => {
     })
 })
 //UPDATE 
-// curl -X PUT -H "Content-Type: application/json" -d '{"title":" GA update week 9"}' 'http://localhost:3003/mockbuster'
-MOCKBUSTER.put('/:watchlist', (req, res) => {
+// curl -X PUT -H "Content-Type: application/json" -d '{"title":" Test Update "}' 'http://localhost:3003/mockbuster/605224fba498748a3de7471d'
+MOCKBUSTER.put('/:id', (req, res) => {
   Movies.findByIdAndUpdate(req.params.id, req.body, { new: true }, (err, updatedMovie) => {
+    console.log(req.params.id)
     if (err) {
       res.status(400).json({ error: err.message })
     }
     res.status(200).json(updatedMovie)
   })
+  console.log(req.params.id)
 })
 //DELETE
-// curl -X DELETE 'http://localhost:3003/mockbuster' 
-MOCKBUSTER.delete('/:watchlist', (req, res) => {
+// curl -X DELETE 'http://localhost:3003/mockbuster/60522dd941073d8d6541425b' 
+MOCKBUSTER.delete('/:id', (req, res) => {
   Movies.findByIdAndRemove(req.params.id, (err, deletedMovie) => {
     if (err) {
       res.status(400).json({ error: err.message })
@@ -49,3 +50,4 @@ MOCKBUSTER.delete('/:watchlist', (req, res) => {
 })
 
 module.exports = MOCKBUSTER
+
