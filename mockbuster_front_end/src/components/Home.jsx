@@ -19,6 +19,19 @@ export default class Home extends Component {
   //     .then(res => res.text())
   //     .then(res => this.setState({message: res}));
   // }
+
+  handleViewMovie (movie) {
+
+    console.log("does this work");
+    console.log(movie);
+  
+    this.setState({
+      movie
+  });
+  
+    
+  }
+
   render() {
     return (
 
@@ -30,10 +43,10 @@ export default class Home extends Component {
             <Form />
 
             {/* WATCHLIST COLUMN */}
-            <Movielist movies={this.props.state.movies} />
+            <Movielist movies={this.props.state.movies} handleViewMovie={this.handleViewMovie.bind(this)} />
 
             {/* MOVIE INFORMATION */}
-            <Movieinfo />
+            <Movieinfo movie={this.state.movie} />
 
 
           </div>
