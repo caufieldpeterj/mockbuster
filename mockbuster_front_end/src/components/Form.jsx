@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Field, Control, Label, Input, Textarea, Select, Checkbox, Radio, Help, InputFile } from 'react-bulma-components'
 
 
 class Form extends Component {
