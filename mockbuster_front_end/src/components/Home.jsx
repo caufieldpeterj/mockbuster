@@ -60,8 +60,26 @@ export default class Home extends Component {
     })
   }
 
+// Handle Delete a Movie 
+  handleDeleteMovie(e, id) {
+    e.preventDefault(); //To Prevent link from clicking and only button
+    console.log("delete button")
+    console.log(id)
+
+    fetch(baseURL + '/mockbuster/'+id, {
+      method: 'DELETE', 
+    }).then(res => {
+      const copyMovies =[...this.state.movies];
+      const findIndex = this.state.movies.findIndex(movie => movie._id === id)
+      copyMovies.splice(findIndex, 1); 
+      this.setState({movies: copyMovies})
+    })
+
+  }
+
 // To set state to where the movie clicked on is shown in the parent's state
-  handleViewMovie(movie) {
+  handleViewMovie(e, movie) {
+    e.preventDefault();
     console.log(movie);
     this.setState({
       movie
@@ -81,7 +99,7 @@ export default class Home extends Component {
             <Form handleAddMovie={this.handleAddMovie.bind(this)} />
 
             {/* WATCHLIST COLUMN */}
-            <Movielist movies={this.state.movies} handleViewMovie={this.handleViewMovie.bind(this)} />
+            <Movielist movies={this.state.movies} handleViewMovie={this.handleViewMovie.bind(this)}  handleDeleteMovie={this.handleDeleteMovie.bind(this)} />
 
             {/* MOVIE INFORMATION */}
             <Movieinfo movie={this.state.movie} />
