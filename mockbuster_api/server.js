@@ -16,20 +16,20 @@ const DBNAME = process.env.DBNAME;
 
 
 // == WHITELIST / CORS OPTIONS == // 
-// const whitelist = ['http://localhost:3000']
-// const corsOptions = {
-//   origin: function (origin, callback) {
+const whitelist = ['http://localhost:3000']
+const corsOptions = {
+  origin: function (origin, callback) {
 
-//     if (whitelist.indexOf(origin) !== -1) {
-//       callback(null, true)
-//     } else {
-//       callback(new Error('Not Allowed by CORS'))
-//     }
-//   }
-// }
+    if (whitelist.indexOf(origin) !== -1) {
+      callback(null, true)
+    } else {
+      callback(new Error('Not Allowed by CORS'))
+    }
+  }
+}
 
-// // MIDDLEWARE
-// APP.use(cors(corsOptions));
+// MIDDLEWARE
+APP.use(cors(corsOptions));
 APP.use(express.json());
 APP.use(session({
     secret: process.env.SECRET,
