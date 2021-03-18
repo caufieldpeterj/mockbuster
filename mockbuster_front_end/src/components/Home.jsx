@@ -27,6 +27,7 @@ export default class Home extends Component {
       image: ''
     }
     this.handleAddMovie = this.handleAddMovie.bind(this)
+    this.handleDeleteMovie = this.handleDeleteMovie.bind(this)
     this.getMovies = this.getMovies.bind(this);
   }
 
@@ -72,7 +73,10 @@ export default class Home extends Component {
       const copyMovies =[...this.state.movies];
       const findIndex = this.state.movies.findIndex(movie => movie._id === id)
       copyMovies.splice(findIndex, 1); 
-      this.setState({movies: copyMovies})
+      this.setState({
+        movies: copyMovies,
+        movie: ''
+      })
     })
 
   }
