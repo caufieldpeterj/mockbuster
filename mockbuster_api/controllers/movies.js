@@ -26,8 +26,23 @@ MOCKBUSTER.get('/', (req, res) => {
       res.status(200).json(listedMovie)
     })
 })
-//UPDATE 
 
+//get info for one One movie
+// curl 'http://localhost:3003/mockbuster/:id'
+MOCKBUSTER.get('/:id', (req, res) => {
+  Movies.findById(req.params.id, (err, foundMovie) => {
+    if (err) {
+      res.status(400).json({ error: err.message })
+    }
+    res.status(200).json(foundMovie)
+  })
+})
+
+
+
+
+
+//UPDATE 
 // curl -X PUT -H "Content-Type: application/json" -d '{"title":" Test Update "}' 'http://localhost:3003/mockbuster/605224fba498748a3de7471d'
 MOCKBUSTER.put('/:id', (req, res) => {
   Movies.findByIdAndUpdate(req.params.id, req.body, { new: true }, (err, updatedMovie) => {
