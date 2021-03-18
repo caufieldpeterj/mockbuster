@@ -78,8 +78,34 @@ export default class Home extends Component {
         movie: ''
       })
     })
-
   }
+
+
+  handleEditMovie(e, resJson) {
+    e.preventDefault();
+    console.log("edit movie called");
+    //console.log(resJson._id);
+
+    const id = (resJson._id);
+    console.log(id)
+
+    fetch(baseURL + '/mockbuster/'+id, {
+      method: 'PUT', 
+    }).then(res => {
+      console.log("test")
+      const copyMovies =[...this.state.movies];
+      console.log(copyMovies)
+      const findIndex = this.state.movies.findIndex(movie => movie._id  === id)
+      copyMovies[findIndex] = resJson; 
+      this.setState({
+        movies: copyMovies,
+      })
+    })
+  }
+
+
+
+  
 
 // To set state to where the movie clicked on is shown in the parent's state
   handleViewMovie(e, movie) {
@@ -106,7 +132,7 @@ export default class Home extends Component {
             <Movielist movies={this.state.movies} handleViewMovie={this.handleViewMovie.bind(this)}  handleDeleteMovie={this.handleDeleteMovie.bind(this)} />
 
             {/* MOVIE INFORMATION */}
-            <Movieinfo movie={this.state.movie} />
+            <Movieinfo movie={this.state.movie} handleViewMovie={this.handleViewMovie.bind(this)} handleEditMovie={this.handleEditMovie.bind(this)} />
 
 
           </div>
