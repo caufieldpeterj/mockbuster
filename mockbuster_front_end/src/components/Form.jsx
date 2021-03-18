@@ -32,23 +32,6 @@ class Form extends Component {
     this.setState({ [event.target.id]: event.target.value })
   }
 
-  // handleAddMovie (movie) {
-  //   const copyMovies = [...this.state.movies]
-  //   copyMovies.unshift(movie)
-  //   this.setState({
-  //     movies: copyMovies,
-  //     title: '',
-  //     director: '',
-  //     year: 0, 
-  //     platform: '',
-  //     description: '',
-  //     image: '' 
-  //   })
-  // }
-
-
-
-
   handleSubmit(event) {
     event.preventDefault()
     console.log("Submit Button Pressed")
@@ -87,10 +70,6 @@ class Form extends Component {
 
       ).catch(error => console.log({ 'Error': error }))
   }
-
-
-
-
 
   render() {
     return (

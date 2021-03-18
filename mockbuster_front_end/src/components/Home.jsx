@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import { Link, Route, Switch } from 'react-router-dom';
 import Form from './Form'
 import Movielist from './Movielist'
 import Movieinfo from './Movieinfo'
@@ -45,7 +44,6 @@ export default class Home extends Component {
     err => console.log(err))
   }
 
-
   // A Method to handle the adding the movie 
   handleAddMovie(movie) {
     const copyMovies = [...this.state.movies]
@@ -80,11 +78,10 @@ export default class Home extends Component {
     })
   }
 
-
+  //Handle Edit of MOvie
   handleEditMovie(e, resJson) {
     e.preventDefault();
     console.log("edit movie called");
-    //console.log(resJson._id);
 
     const id = (resJson._id);
     console.log(id)
@@ -103,14 +100,10 @@ export default class Home extends Component {
     })
   }
 
-
-
-  
-
 // To set state to where the movie clicked on is shown in the parent's state
   handleViewMovie(e, movie) {
     e.preventDefault();
-    console.log(movie);
+    // console.log(movie);
     this.setState({
       movie
     });
