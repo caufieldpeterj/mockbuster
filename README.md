@@ -24,7 +24,7 @@ PROJECT 3 (Groups): General Assembly Software Engineering Immersive 1-19
 
 - - - -
 
-## Schedule
+## Project Schedule
 
 Monday | Tuesday | Wednesday | Thursday 
 | :---: | :---: | :---: | :---: 
