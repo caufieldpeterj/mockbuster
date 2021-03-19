@@ -2,7 +2,7 @@
 PROJECT 3 (Groups): General Assembly Software Engineering Immersive 1-19
 ```
 
-![alt text](image (1).png "Title")
+- Add Mockbuster Logo 
 
 # Mockbuster
  Time is an extremely important competitive priority for Mockbuster, especially regarding our customers. That is why with our NEW "Total Access" Plan, subscribers will have even more options for their digital rentals like expirations via keys so waiting for things to disappear is a thing of the past. 
@@ -12,6 +12,7 @@ PROJECT 3 (Groups): General Assembly Software Engineering Immersive 1-19
  ```
  Become the global leader in rentable home entertainment
  ```
+ - - - - 
  
  ## Usage
  
@@ -37,7 +38,6 @@ Peter/rikk setup MVC in Back-End  | Debug React Issue | Debug React issue | Hard
 Eric will setup MVC Front-End w/ CSS  | Daily Meetings | General Functionality | Daily Meetings
 Pseudocoding & Wireframing  | Push Updates | Daily Meetings | Push Updates
 
-
 - - - - 
 
 ## Contributions
@@ -45,10 +45,10 @@ Pseudocoding & Wireframing  | Push Updates | Daily Meetings | Push Updates
 <details>
   <summary>Developers</summary>
   <p>
-    Front-End Developer: Eric Ouer
+    :bust_in_silhouette: Front-End Developer: Eric Ouer
   </p>
   <p>
-    Back-End Developer(s): Peter Caufield, Robert 'rikk'
+    :busts_in_silhouette: Back-End Developer(s): Peter Caufield, Robert 'rikk'
   </p>
 </details>
 
@@ -62,13 +62,19 @@ Pseudocoding & Wireframing  | Push Updates | Daily Meetings | Push Updates
 <details>
   <summary>External Sources</summary>
   <p>
-    Phil Winchester, Ben Manning, John Jacobs, & Ron Myers
+    :exclamation:Phil Winchester, Ben Manning, John Jacobs, & Ron Myers:exclamation:
   </p>
 </details>
 
 ### Link
 
 Heroku App - [Mockbuster](https://nameless-peak-75736.herokuapp.com/)
+
+## Wireframe
+- Add wireframe image
+
+
+## MVP/Updates
 
 
 
