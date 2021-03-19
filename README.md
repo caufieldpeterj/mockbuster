@@ -16,8 +16,6 @@ PROJECT 3 (Groups): General Assembly Software Engineering Immersive 1-19
  
  ## Usage
  
- - User Sign's up using provided links
- - Once user has been verified, they are taken to their custom watchlist
  - User Watchlist: "Your personal inventory of Video entertainment programs to reserve until you are ready to view them with your favorite snacks!!"
  - Once satisfied or unsatisfied, the user has the option to remove the program from their custom inventory by utilizing a removal button.
  - "Total Access" Plan uses a strategy designed with specific keys that will allow the user to set temporary reserves of programs if the account is shared.
