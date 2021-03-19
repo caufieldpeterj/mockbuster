@@ -1,5 +1,5 @@
 # Mockbuster
- Time is an extremely important competitive priority for Mockbuster, especially regarding our customers. That is why with our NEW "Total Access" Plan, subscribers will have even more options for their digital rentals like expirations via keys so returning waiting till the end of days is a thing of the past. 
+ Time is an extremely important competitive priority for Mockbuster, especially regarding our customers. That is why with our NEW "Total Access" Plan, subscribers will have even more options for their digital rentals like expirations via keys so waiting for things to disappear is a thing of the past. 
  
  ## Mission Statement
  
@@ -25,7 +25,10 @@
 <details>
   <summary>Developers</summary>
   <p>
-    Front-End Developer: Eric Ouer |-| Back-End Developer(s): Peter Caufield, Robert 'rikk'
+    Front-End Developer: Eric Ouer
+  </p>
+  <p>
+    Back-End Developer(s): Peter Caufield, Robert 'rikk'
   </p>
 </details>
 
