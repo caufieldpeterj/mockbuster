@@ -2,7 +2,6 @@
 PROJECT 3 (Groups): General Assembly Software Engineering Immersive 1-19
 ```
 
-- Add Mockbuster Logo 
 ![alt text](images/logo.png)
 
 # Mockbuster
@@ -72,7 +71,7 @@ Pseudocoding & Wireframing  | Push Updates | Daily Meetings | Push Updates
 Heroku App - [Mockbuster](https://nameless-peak-75736.herokuapp.com/)
 
 ## Wireframe
-- Add wireframe image
+![alt text](images/wireframe.jpg)
 
 
 ## MVP/Updates
