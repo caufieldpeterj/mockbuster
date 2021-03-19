@@ -41,7 +41,7 @@ Setup Back-End Server  | Connect Back-End to React | Complete MVP end of day | W
 Setup Front-End React Page  | General Functionality | Debug CORS issue | Deploy Heroku
 Developers have repository access  | Debug Seed Issue | Start JWT research | Stretch Goals
 Peter/rikk setup MVC in Back-End  | Debug React Issue | Debug React issue | Hardcode JWT Auth
-Eric setup MVC Front-End w/ CSS  |  | General Functionality | 
+Eric setup MVC Front-End w/ CSS  |  | OMDB API Implementation | 
 Pseudocoding & Wireframing  |  |  | 
 
 ## Dev Team
@@ -49,7 +49,7 @@ Pseudocoding & Wireframing  |  |  |
 <details>
   <summary>Developers</summary>
   <p>
-    :bust_in_silhouette: Front-End Developer: Eric Oeur
+    :bust_in_silhouette: Front-End and Back-End Developer: Eric Oeur
   </p>
   <p>
     :busts_in_silhouette: Back-End Developer(s): Peter Caufield, Robert 'rikk'
@@ -59,7 +59,7 @@ Pseudocoding & Wireframing  |  |  |
 <details>
   <summary>Coding Structure</summary>
   <p>
-    React,React Router, Node.JS, Express, MongoDB, Mongoose
+    React, React Router, Node.JS, Express, MongoDB, Mongoose, Bulma CSS
   </p>
 </details>
 
@@ -78,7 +78,7 @@ Pseudocoding & Wireframing  |  |  |
 ## Contributions
 - Rikk: CRUD routes for Movies Controller & test data for debugging, JWT functionality
 - Peter: Framework for sessions authorization, Git reconfiguration, and deployment to Heroku/Mongo
-- Eric: React Front-End
+- Eric: React Front-End, Project Management, Wireframing, Back-end Update Routes, CSS Styling (Bulma), Graphic Design  
 
 ## Future Updates
 - Authorization via Sign up and Login buttons
