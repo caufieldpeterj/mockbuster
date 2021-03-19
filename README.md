@@ -75,7 +75,7 @@ Heroku App - [Mockbuster](https://nameless-peak-75736.herokuapp.com/)
 
 
 ## MVP/Stretch
-- CRUD data for Movies controller & test data for debugging
+- Built: CRUD routes for Movies Controller & test data for debugging. 
 
 ## Future Updates
 - 
