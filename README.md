@@ -46,7 +46,7 @@
 ### Schedule
 
 Monday | Tuesday | Wednesday | Thursday 
-| :--- | ---: | :--- | :---: 
+| :--- | :---: | :---: | :---: 
 Setup Back-End Server  | Connect Back-End to React | Complete MVP end of day | Work on Heroku issue
 Setup Front-End React Page  | General Functionality | Debug CORS issue | Deploy Heroku
 Developers have repository access  | Debug Seed Issue | Start JWT research | Stretch Goals
