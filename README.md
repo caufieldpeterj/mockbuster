@@ -4,19 +4,25 @@ PROJECT 3 (Groups): General Assembly Software Engineering Immersive 1-19
 
 ![alt text](images/logo.png)
 
-# Mockbuster
- Time is an extremely important competitive priority for Mockbuster, especially regarding our customers. That is why with our NEW "Total Access" Plan, subscribers will have even more options for their digital rentals like expirations via keys so waiting for things to disappear is a thing of the past. 
- 
- ## Mission Statement
- 
- ```
- Become the global leader in rentable home entertainment
- ```
- - - - - 
- 
- ## Usage
- 
- - User Watchlist: "Your personal inventory of Video entertainment programs to reserve until you are ready to view them with your favorite snacks!!"
+## Problem
+
+Too many streaming services, movies/series to watch, no way to optimize what you watch and when!
+
+## General app idea
+
+User Watchlist: "Your personal inventory of Video entertainment programs to reserve until you are ready to view them with your favorite snacks!!"
+
+## Mockbuster
+
+Time is an extremely important competitive priority for Mockbuster, especially regarding our customers. That is why with our NEW "Total Access" Plan, subscribers will have even more options for their digital rentals like expirations via keys (coming soon!) so waiting for things to disappear is a thing of the past. 
+
+## Usage
+
+ - Visit our website [Mockbuster](https://nameless-peak-75736.herokuapp.com/)
+ - Enter a movie into the OMDB API search field or populate the watchlist with movie details, then "Add Movie"
+ - View your watchlist, with the ability to add, edit, view (click for more info), or delete
+
+## User stories
  - Once satisfied or unsatisfied, the user has the option to remove the program from their custom inventory by utilizing a removal button.
  - "Total Access" Plan uses a strategy designed with specific keys that will allow the user to set temporary reserves of programs if the account is shared.
  - Potential users can be provided with a free trial of Mockbuster Online (receiviing a free movie rental at the time they agree), or given an informational readMe file. 
@@ -33,8 +39,8 @@ Setup Back-End Server  | Connect Back-End to React | Complete MVP end of day | W
 Setup Front-End React Page  | General Functionality | Debug CORS issue | Deploy Heroku
 Developers have repository access  | Debug Seed Issue | Start JWT research | Stretch Goals
 Peter/rikk setup MVC in Back-End  | Debug React Issue | Debug React issue | Hardcode JWT Auth
-Eric will setup MVC Front-End w/ CSS  | Daily Meetings | General Functionality | Daily Meetings
-Pseudocoding & Wireframing  | Push Updates | Daily Meetings | Push Updates
+Eric setup MVC Front-End w/ CSS  |  | General Functionality | 
+Pseudocoding & Wireframing  |  |  | 
 
 - - - - 
 
@@ -64,20 +70,24 @@ Pseudocoding & Wireframing  | Push Updates | Daily Meetings | Push Updates
   </p>
 </details>
 
-### Link
 
-Heroku App - [Mockbuster](https://nameless-peak-75736.herokuapp.com/)
 
 ## Wireframe
 ![alt text](images/wireframe.jpg)
 
 
-## MVP/Stretch
-- Built: CRUD routes for Movies Controller & test data for debugging. 
+## Contributions
+- Rikk: CRUD routes for Movies Controller & test data for debugging, working toward JWT 
+- Peter: Framework for future authorization, Git reconfiguration, and deployment to Heroku/Mongo
+- Eric: 
 
 ## Future Updates
+- Authorization via Sign up and Login buttons
 - 
-
-
-
+  
+## Mission Statement
+ 
+ ```
+ Become the global leader in rentable home entertainment
+ ```
 
