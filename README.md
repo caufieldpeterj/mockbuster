@@ -45,10 +45,10 @@ Pseudocoding & Wireframing  | Push Updates | Daily Meetings | Push Updates
 <details>
   <summary>Developers</summary>
   <p>
-    :bust_in_silhouette:Front-End Developer: Eric Ouer
+    :bust_in_silhouette: Front-End Developer: Eric Ouer
   </p>
   <p>
-    :busts_in_silhouette:Back-End Developer(s): Peter Caufield, Robert 'rikk'
+    :busts_in_silhouette: Back-End Developer(s): Peter Caufield, Robert 'rikk'
   </p>
 </details>
 
