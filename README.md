@@ -59,7 +59,7 @@ Pseudocoding & Wireframing  |  |  |
 <details>
   <summary>Coding Structure</summary>
   <p>
-    React, Node.JS, Express, MongoDB, Mongoose
+    React,React Router, Node.JS, Express, MongoDB, Mongoose
   </p>
 </details>
 
@@ -78,7 +78,7 @@ Pseudocoding & Wireframing  |  |  |
 ## Contributions
 - Rikk: CRUD routes for Movies Controller & test data for debugging, JWT functionality
 - Peter: Framework for sessions authorization, Git reconfiguration, and deployment to Heroku/Mongo
-- Eric: 
+- Eric: React Front-End
 
 ## Future Updates
 - Authorization via Sign up and Login buttons
