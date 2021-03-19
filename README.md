@@ -2,7 +2,7 @@
 PROJECT 3 (Groups): General Assembly Software Engineering Immersive 1-19
 ```
 
-- Add Mockbuster Logo - 
+- Add Mockbuster Logo 
 
 # Mockbuster
  Time is an extremely important competitive priority for Mockbuster, especially regarding our customers. That is why with our NEW "Total Access" Plan, subscribers will have even more options for their digital rentals like expirations via keys so waiting for things to disappear is a thing of the past. 
@@ -38,7 +38,6 @@ Peter/rikk setup MVC in Back-End  | Debug React Issue | Debug React issue | Hard
 Eric will setup MVC Front-End w/ CSS  | Daily Meetings | General Functionality | Daily Meetings
 Pseudocoding & Wireframing  | Push Updates | Daily Meetings | Push Updates
 
-
 - - - - 
 
 ## Contributions
@@ -71,7 +70,11 @@ Pseudocoding & Wireframing  | Push Updates | Daily Meetings | Push Updates
 
 Heroku App - [Mockbuster](https://nameless-peak-75736.herokuapp.com/)
 
+## Wireframe
+- Add wireframe image
 
+
+##MVP/Updates
 
 
 
