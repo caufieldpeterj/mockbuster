@@ -1,5 +1,5 @@
 # Mockbuster
- The new Mockbuster Online "Total Access" Plan, subscribers even have the option for their digital rentals to expire via keys so return movies is now a thing of the past. 
+ Time is an extremely important competitive priority for Mockbuster, especially regarding our customers. That is why with our NEW "Total Access" Plan, subscribers will have even more options for their digital rentals like expirations via keys so returning waiting till the end of days is a thing of the past. 
  
  ## Mission Statement
  
