@@ -4,7 +4,7 @@
  ## Mission Statement
  
  ```
- To be the global leader in rentable home entertainment by providing outstanding service, selection, convenience and value.
+ Become the global leader in rentable home entertainment
  ```
  
  ## Usage
@@ -20,12 +20,40 @@
 
 - - - -
 
-## Workflow
+## Contributions
 
 <details>
   <summary>Developers</summary>
   <p>
-    Front-End Developer: Eric Ouer
-    Back-End Developer(s): Peter Caufield, Robert 'rikk'
+    Front-End Developer: Eric Ouer || Back-End Developer(s): Peter Caufield, Robert 'rikk'
   </p>
 </details>
+
+<details>
+  <summary>Coding Structure</summary>
+  <p>
+    React, Node.JS, Express, MongoDB, Mongoose
+  </p>
+</details>
+
+<details>
+  <summary>External Sources</summary>
+  <p>
+    Phil Winchester, Ben Manning, John Jacobs, & Ron Myers
+  </p>
+</details>
+
+### Schedule
+
+Monday | Tuesday | Wednesday | Thursday 
+| :--- | ---: | :--- | :---: 
+Setup Back-End Server  | Connect Back-End to React | Complete MVP end of day | Work on Heroku issue
+Setup Front-End React Page  | General Functionality | Debug CORS issue | Deploy Heroku
+Developers have repository access  | Debug Seed Issue | Start JWT research | Stretch Goals
+Peter/rikk setup MVC in Back-End  | Debug React Issue | Debug React issue | Hardcode JWT Auth
+Eric will setup MVC Front-End w/ CSS  | Daily Meetings | General Functionality | Daily Meetings
+Pseudocoding & Wireframing  | Push Updates | Daily Meetings | Push Updates
+
+
+
+
