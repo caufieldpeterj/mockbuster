@@ -26,7 +26,7 @@ Time is an extremely important competitive priority for Mockbuster, especially r
  - Our returning and potential users will visit the website or application. 
  - From there they can enjoy having all the information about their favorite video programs displayed at their fingertips. 
  - Once satisfied or unsatisfied, the user has the option to remove the program from their custom inventory by utilizing a removal button.
- - "Total Access" Plan uses a strategy designed with https://img.shields.io/static/v1.svg?label=Future&color=red specific keys https://img.shields.io/static/v1.svg?label=Updates&color=red that will allow the user to set temporary reserves of programs if the account is shared.
+ - "Total Access" Plan uses a strategy designed with specific keys (see future updates) that will allow the user to set temporary reserves of programs if the account is shared.
  - Potential users can be provided with a free trial of Mockbuster Online (receiviing a free movie rental at the time they agree), or given an informational readMe file. 
  - Users will have their accounts billed every 30-days with 0 late fees. 
  - CANCEL when you want too: 30 days of bespoke video entertainment is at your fingertips!!
