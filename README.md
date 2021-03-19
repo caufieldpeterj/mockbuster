@@ -62,7 +62,7 @@ Pseudocoding & Wireframing  | Push Updates | Daily Meetings | Push Updates
 <details>
   <summary>External Sources</summary>
   <p>
-    Phil Winchester, Ben Manning, John Jacobs, & Ron Myers
+    :exclamation:Phil Winchester, Ben Manning, John Jacobs, & Ron Myers:exclamation:
   </p>
 </details>
 
@@ -74,7 +74,7 @@ Heroku App - [Mockbuster](https://nameless-peak-75736.herokuapp.com/)
 - Add wireframe image
 
 
-##MVP/Updates
+## MVP/Updates
 
 
 
