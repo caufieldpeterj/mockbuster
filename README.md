@@ -34,6 +34,7 @@ The Watchlist: "Your personal inventory of Video entertainment programs to reser
 - - - -
 
 ## Project Schedule
+ - The group utilized a Google Doc as a project tracking tool 
 
 Monday | Tuesday | Wednesday | Thursday 
 | :---: | :---: | :---: | :---: 
