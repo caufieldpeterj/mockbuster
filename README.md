@@ -42,7 +42,7 @@ Setup Front-End React Page  | General Functionality | Debug CORS issue | Deploy 
 Developers have repository access  | Debug Seed Issue | Start JWT research | Stretch Goals
 Peter/rikk setup MVC in Back-End  | Debug React Issue | Debug React issue | Hardcode JWT Auth
 Eric setup MVC Front-End w/ CSS  |  | OMDB API Implementation | 
-Pseudocoding & Wireframing  |  |  | 
+Pseudocoding & Wireframing  |  | Finalized Styling | 
 
 ## Dev Team
 
