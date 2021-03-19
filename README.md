@@ -2,7 +2,7 @@
 PROJECT 3 (Groups): General Assembly Software Engineering Immersive 1-19
 ```
 
-[img](Image from iOS.jpg)
+[img](/Image from iOS.jpg)
 
 # Mockbuster
  Time is an extremely important competitive priority for Mockbuster, especially regarding our customers. That is why with our NEW "Total Access" Plan, subscribers will have even more options for their digital rentals like expirations via keys so waiting for things to disappear is a thing of the past. 
