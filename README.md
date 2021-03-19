@@ -56,9 +56,9 @@ Peter/rikk setup MVC in Back-End  | Debug React Issue | Debug React issue | Hard
 Eric will setup MVC Front-End w/ CSS  | Daily Meetings | General Functionality | Daily Meetings
 Pseudocoding & Wireframing  | Push Updates | Daily Meetings | Push Updates
 
-### Links
+### Link
 
-[Heroku](https://nameless-peak-75736.herokuapp.com/ "Mockbuster")
+Heroku App - [Mockbuster](https://nameless-peak-75736.herokuapp.com/ "Mockbuster")
 
 
 
