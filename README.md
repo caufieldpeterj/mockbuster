@@ -1,5 +1,5 @@
 ```
-#### Project 3 (Groups): General Assembly Software Engineering Immersive 1-19
+PROJECT 3 (Groups): General Assembly Software Engineering Immersive 1-19
 ```
 
 # Mockbuster
@@ -66,7 +66,7 @@ Pseudocoding & Wireframing  | Push Updates | Daily Meetings | Push Updates
 
 ### Link
 
-Heroku App - [Mockbuster](https://nameless-peak-75736.herokuapp.com/ "Mockbuster")
+Heroku App - [Mockbuster](https://nameless-peak-75736.herokuapp.com/)
 
 
 
