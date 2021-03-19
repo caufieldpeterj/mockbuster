@@ -74,7 +74,11 @@ Heroku App - [Mockbuster](https://nameless-peak-75736.herokuapp.com/)
 ![alt text](images/wireframe.jpg)
 
 
-## MVP/Updates
+## MVP/Stretch
+- CRUD data for Movies controller & test data for debugging
+
+## Future Updates
+- 
 
 
 
