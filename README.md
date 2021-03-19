@@ -2,7 +2,7 @@
 PROJECT 3 (Groups): General Assembly Software Engineering Immersive 1-19
 ```
 
-![alt text](/images/Image from iOS.jpg "Title")
+- Add Mockbuster Logo - 
 
 # Mockbuster
  Time is an extremely important competitive priority for Mockbuster, especially regarding our customers. That is why with our NEW "Total Access" Plan, subscribers will have even more options for their digital rentals like expirations via keys so waiting for things to disappear is a thing of the past. 
@@ -12,6 +12,7 @@ PROJECT 3 (Groups): General Assembly Software Engineering Immersive 1-19
  ```
  Become the global leader in rentable home entertainment
  ```
+ - - - - 
  
  ## Usage
  
@@ -69,6 +70,8 @@ Pseudocoding & Wireframing  | Push Updates | Daily Meetings | Push Updates
 ### Link
 
 Heroku App - [Mockbuster](https://nameless-peak-75736.herokuapp.com/)
+
+
 
 
 
